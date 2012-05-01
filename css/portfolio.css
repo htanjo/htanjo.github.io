@@ -1,0 +1,17 @@
+body {
+    padding-top: 50px;
+}
+@media (max-width: 979px) {
+    body {
+        padding-top: 0;
+    }
+}
+.category {
+    margin: 20px 0 30px;
+}
+.item {
+    margin: 15px 0;
+}
+h2 + .item {
+    margin-top: 10px;
+}

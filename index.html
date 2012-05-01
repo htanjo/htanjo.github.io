@@ -2,22 +2,88 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>htanjo's projects in GitHub</title>
+    <title>htanjo's portfolio</title>
     <link rel="stylesheet" href="css/bootstrap.min.css">
     <link rel="stylesheet" href="css/bootstrap-responsive.min.css">
+    <link rel="stylesheet" href="css/portfolio.css">
+    <!--[if lt IE 9]>
+    <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
 </head>
 <body>
-    <div class="container-fluid">
-        <h1>My projects</h1>
-        <ul>
-            <li>
-                <dl>
-                    <dt><a href="http://htanjo.github.com/stealth/">Stealth Mission</a></dt>
-                    <dd>This is a Stealth Game based on WebGL. (developing)</dd>
-                </dl>
-            </li>
-        </ul>
+
+    <header class="navbar navbar-fixed-top">
+        <div class="navbar-inner">
+            <div class="container">
+                <a href="http://htanjo.github.com/" class="brand">htanjo's portfolio</a>
+            </div>
+        </div>
+    </header>
+
+    <div class="container">
+
+        <section class="category">
+            <h2>My projects in GitHub</h2>
+
+            <section class="item">
+                <h3><a href="https://github.com/htanjo/stealth">Stealth Mission</a></h3>
+                <p>This is a Stealth Game based on WebGL. (developing)</p>
+                <div>
+                    <a href="http://htanjo.github.com/stealth/" class="btn btn-info"><i class="icon-play-circle icon-white"></i> Launch Demo</a>
+                    <span class="muted">&ndash; Recommend Google Chrome.</span>
+                </div>
+            </section>
+
+            <section class="item">
+                <h3><a href="https://github.com/htanjo/jquery-plugin">jQuery Plugin Interface</a></h3>
+                <p>Simple interface for creating a jQuery plugin.</p>
+            </section>
+
+        </section>
+
+        <section class="category">
+            <h2>Other activities</h2>
+
+            <section class="item">
+                <h3><a href="http://www.pixiv.net/member.php?id=3063376">pixiv</a></h3>
+                <p>My illustrations. I create digital paintings by using Corel Painter.</p>
+            </section>
+
+            <section class="item">
+                <h3><a href="http://htanjo.deviantart.com/">deviantART</a></h3>
+                <p>My illustrations. I will post the same works as the pixiv ones.</p>
+            </section>
+
+            <section class="item">
+                <h3><a href="http://twitter.com/htanjo">Twitter</a></h3>
+                <p>This is my private Twitter account. I tweet in Japanese.</p>
+            </section>
+
+            <section class="item">
+                <h3><a href="http://phenotype.jpn.org/blog/">Blog</a></h3>
+                <p>
+                    My old blog.
+                    More than 2 years passed since the last update...<br>
+                    At that time, I created a Racing Game with Papervision3D which is a 3D library for ActionScript.<br>
+                    I am planning to move my previous works to GitHub hosting.
+                </p>
+            </section>
+
+        </section>
+
+        <hr>
+
+        <section class="category">
+            <h2>Profile</h2>
+            <dl class="unstyled">
+                <dt>htanjo (Tanjo, Hiroyuki)</dt>
+                <dd>Front-end engineer / Web designer</dd>
+                <dd>Yokohama, Japan</dd>
+            </dl>
+        </section>
+
     </div>
+
     <script src="js/jquery-1.7.2.min.js"></script>
     <script src="js/bootstrap.min.js"></script>
 </body>
