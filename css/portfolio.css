@@ -1,3 +1,4 @@
+@import url(http://fonts.googleapis.com/css?family=Share);
 body {
     padding-top: 50px;
 }
@@ -6,12 +7,32 @@ body {
         padding-top: 0;
     }
 }
+.navbar .brand {
+    font-size: 18px;
+    font-family: Share, sans-serif;
+    font-weight: 400;
+    line-height: 20px;
+}
 .category {
-    margin: 20px 0 30px;
+    margin: 25px 0 35px;
 }
 .item {
-    margin: 15px 0;
+    position: relative;
+    min-height: 48px;
+    margin: 20px 0;
+    padding-left: 50px;
 }
 h2 + .item {
     margin-top: 10px;
+}
+.item figure {
+    position: absolute;
+    top: 4px;
+    left: 0;
+    margin: 0;
+}
+h2,
+h3 {
+    font-family: Share, sans-serif;
+    font-weight: 400;
 }
