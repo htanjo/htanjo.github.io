@@ -1,119 +1,47 @@
-<!DOCTYPE HTML>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <title>htanjo's portfolio</title>
+<!DOCTYPE html>
+<html lang="ja">
+  <head>
+    <meta charset="UTF-8" />
+    <title>htanjo's works</title>
+    <meta
+      name="description"
+      content="htanjoの作品集。ゲームから模型まで、趣味で制作した作品を紹介しています。"
+    />
+    <meta property="og:url" content="https://htanjo.github.io/works/" />
+    <meta property="og:type" content="website" />
+    <meta property="og:title" content="htanjo's works" />
+    <meta
+      property="og:description"
+      content="htanjoの作品集。ゲームから模型まで、趣味で制作した作品を紹介しています。"
+    />
+    <meta property="og:site_name" content="htanjo.github.io" />
+    <meta
+      property="og:image"
+      content="https://htanjo.github.io/works/og_image.png"
+    />
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:site" content="@htanjo" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="css/bootstrap.min.css" />
-    <link rel="stylesheet" href="css/bootstrap-responsive.min.css" />
-    <link rel="stylesheet" href="css/portfolio.css" />
-    <!--[if lt IE 9]>
-    <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
-    <![endif]-->
-</head>
-<body>
-
-    <header class="navbar navbar-fixed-top">
-        <div class="navbar-inner">
-            <div class="container">
-                <a href="http://htanjo.github.com/" class="brand">htanjo's portfolio</a>
-            </div>
+    <link rel="canonical" href="https://htanjo.github.io/" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link rel="icon" type="image/svg+xml" href="./works/icon.svg" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=family=Roboto:wght@300&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" crossorigin href="./assets/index.css" />
+  </head>
+  <body>
+    <div class="container">
+      <a href="./works/" class="link">
+        <div class="logo">
+          <img src="./assets/logo_1.png" alt="logo" />
+          <img src="./assets/logo_2.png" alt="logo" />
+          <img src="./assets/logo_3.png" alt="logo" />
         </div>
-    </header>
-
-    <div id="container" class="container">
-
-        <section class="category">
-            <h2>My projects in GitHub</h2>
-
-            <section class="item">
-                <h3><a href="https://github.com/htanjo/stealth">Stealth Mission</a></h3>
-                <p>This is a Stealth Game based on WebGL. (developing)</p>
-                <div>
-                    <a href="http://htanjo.github.com/stealth/" class="btn btn-info"><i class="icon-play-circle icon-white"></i> Launch Demo</a>
-                    <span class="muted">&ndash; Recommend Google Chrome.</span>
-                </div>
-                <figure>
-                    <a href="https://github.com/htanjo/stealth"><img src="img/thumb-stealth.png" alt="Stealth Mission" /></a>
-                </figure>
-            </section>
-
-            <section class="item">
-                <h3><a href="https://github.com/htanjo/jquery-plugin-interface">jQuery Plugin Interface</a></h3>
-                <p>Simple interface for creating a jQuery plugin.</p>
-                <figure>
-                    <a href="https://github.com/htanjo/jquery-plugin-interface"><img src="img/thumb-jquery.png" alt="jQuery Plugin Interface" /></a>
-                </figure>
-            </section>
-
-        </section>
-
-        <section class="category">
-            <h2>Other activities</h2>
-
-            <section class="item">
-                <h3><a href="http://htanjo.deviantart.com/">deviantART</a></h3>
-                <p>My illustrations. I create digital paintings by using Corel Painter.</p>
-                <figure>
-                    <a href="http://htanjo.deviantart.com/"><img src="img/thumb-painting-02.png" alt="deviantART" /></a>
-                </figure>
-            </section>
-
-            <section class="item">
-                <h3><a href="http://www.pixiv.net/member.php?id=3063376">pixiv</a></h3>
-                <p>My illustrations. I will post the same works as the deviantART ones.</p>
-                <figure>
-                    <a href="http://www.pixiv.net/member.php?id=3063376"><img src="img/thumb-painting-01.png" alt="pixiv" /></a>
-                </figure>
-            </section>
-
-            <section class="item">
-                <h3><a href="http://twitter.com/htanjo">Twitter</a></h3>
-                <p>This is my private Twitter account. I tweet in Japanese.</p>
-                <figure>
-                    <a href="http://twitter.com/htanjo"><img src="img/thumb-twitter.png" alt="Twitter" /></a>
-                </figure>
-            </section>
-
-            <section class="item">
-                <h3><a href="http://phenotype.jpn.org/blog/">Blog</a></h3>
-                <p>
-                    My old blog.
-                    More than 2 years passed since the last update...<br>
-                    At that time, I created a Racing Game with Papervision3D which is a 3D library for ActionScript.<br>
-                    I am planning to move my previous works to GitHub hosting.
-                </p>
-                <figure>
-                    <a href="http://phenotype.jpn.org/blog/"><img src="img/thumb-pv3dracing.png" alt="Blog" /></a>
-                </figure>
-            </section>
-
-        </section>
-
-        <hr />
-
-        <section class="category">
-            <h2>Profile</h2>
-            <dl class="unstyled">
-                <dt><a href="https://github.com/htanjo">htanjo (Tanjo, Hiroyuki)</a></dt>
-                <dd>Front-end engineer / Web designer</dd>
-                <dd>Yokohama, Japan</dd>
-            </dl>
-        </section>
-
+        <h1 class="title"><span>htanjo's works</span></h1>
+      </a>
     </div>
-
-    <script src="js/jquery-1.7.2.min.js"></script>
-    <script src="js/bootstrap.min.js"></script>
-    <script>
-        var _gaq = _gaq || [];
-        _gaq.push(['_setAccount', 'UA-31320748-1']);
-        _gaq.push(['_trackPageview']);
-        (function() {
-            var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
-            ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
-            var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
-        })();
-    </script>
-</body>
+  </body>
 </html>
