@@ -66,6 +66,7 @@ a {
   letter-spacing: 0.05em;
 }
 .title span {
+  display: inline-block;
   color: transparent;
   background-image: linear-gradient(60deg, #ef7e62 0%, #ed61a0 100%);
   background-clip: text;
